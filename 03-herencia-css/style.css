@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: #fff;
+}
+h1{
+font-family: "Smooch Sans", sans-serif;
+font-optical-sizing: auto;
+
+}
+#miParrafo{color: blueviolet;}
+.p{  color: orange;}
+p{   color: greenyellow!important;}
+
+/*ejemplo posición */ 
+.parent{
+    background-color: bisque;
+    width: 400px;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 15px;
+    position: sticky;
+    top: 20%;
+}
+.parent h1{
+    position: absolute;
+    font-size: 4.5rem;
+    left: 20%;
+    bottom: 20%;
+    z-index: 2;
+}
+.parent img{
+    position: absolute;
+}
+.mango{
+    right: 0;
+    top: 7%;
+    z-index: 1;
+
+}
+.pera{
+    bottom: 15%;
+    left: -8%;
+    z-index: 3;
+    transform: rotate(-32deg);
+}
