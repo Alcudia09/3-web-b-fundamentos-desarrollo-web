@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    flex-direction: flex-end;
+
+
+    background-color: blueviolet;
+    border: 2px solid black;
+    width: 600px;
+    height: 500px;
+
+}
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border: 2px solid black;
+    border-radius: 5px;
+}
